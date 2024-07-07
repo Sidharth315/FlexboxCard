@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 280px;
+      border: 2px solid black;
+      margin: 59px 30px 0px 0px;
+      border-radius: 15px 15px;
+      background-color: aliceblue;
+    }
+    .card:hover {
+      background-color: orangered;
+      color: white;
+      transform: scale(1.09);
+    }
+    .image {
+      background-color: aqua;
+      height: 180px;
+      margin: 0px 0px 16px 0px;
+      border-radius: 15px 15px;
+    }
+
+    .card h2 {
+      text-align: center;
+    }
+
+    .card1 {
+      background-image: url("cardimages/1piece.jpg");
+      background-size: cover;
+    }
+    .card2 {
+      background-image: url("https://wallpapers.com/images/hd/naruto-group-lpf1p3iwglq6n1nd.jpg");
+      background-size: cover;
+    }
+    .card3 {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsUxkqqapkoehEVaaXZ_0VW4OsuUW-BRKJw&s");
+      background-size: cover;
+    }
+    .card p {
+      padding: 6px;
+      text-align: center;
+    }
+
+    .card a {
+      background-color: black;
+      color: white;
+      padding: 15px 20px;
+      display: block;
+      margin: 12px 20px;
+      text-align: center;
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <section class="container">
+      <h1>AnimeCard.in</h1>
+      <div class="card">
+        <div class="image card1"></div>
+        <h2>One Piece</h2>
+        <p>
+          The story follows Monkey D. Luffy, a young man who gains rubber-like
+          properties after eating a Devil Fruit. Luffy sets off on a
+          grandadventure across the Grand Line with his diverse crew, the Straw
+          HatPirates, in search of the legendary treasure known as “One Piece”
+          to become the King of the Pirates.
+        </p>
+        <a href="https://www.imdb.com/title/tt0388629/">Read</a>
+      </div>
+      <div class="card">
+        <div class="image card2"></div>
+        <h2>Naruto</h2>
+        <p>
+          It tells the story of Naruto Uzumaki, a young ninja who seeks
+          recognition and aspires to become the Hokage, the leader of his
+          village1. The series is divided into two parts: the first set in
+          Naruto's pre-teen years, and the second in his teens1. he story begins
+          with Naruto being ostracized due to the power.
+          <a href="https://en.wikipedia.org/wiki/Naruto">Read</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="image card3"></div>
+        <h2>Berserk</h2>
+        <p>
+          “Berserk” is a dark fantasy manga series . The story revolves around
+          Guts, a lone swordsman, and Griffith, the leader of a mercenary band
+          known as the “Band of the Hawk”. Guts seeks revenge against Griffith,
+          who betrayed him and sacrificed their comrades for demonic power
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Berserk_(manga)">Read</a>
+      </div>
+    </section>
+  </body>
+</html>
